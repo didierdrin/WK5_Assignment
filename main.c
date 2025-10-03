@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Function prototypes
+// function prototypes
 int login(char usernames[][20], char pins[][5], double balances[], int *current_user);
 void display_menu();
 int get_choice();
@@ -14,3 +14,9 @@ void log_transaction(char transactions[][100], int *trans_count, char *type, dou
 int validate_pin(char *pin);
 void clear_input_buffer();
 
+int main() 
+{
+    
+
+
+}
