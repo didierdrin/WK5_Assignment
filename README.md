@@ -6,16 +6,10 @@ This project implements an ATM system in C that allows multiple predefined users
 
 Assumptions
 
-
-
-
-
 The system supports 5 predefined users with fixed usernames and PINs.
 
 
-
 Each user can store up to 10 transactions in a text-based log.
-
 
 
 Usernames are unique, case-sensitive, and up to 20 characters.
@@ -30,7 +24,7 @@ All monetary amounts are in RWF (Rwandan Franc) and stored as doubles.
 
 
 
-No file I/O is used; all data is stored in memory during program execution.
+All data is stored in memory during program execution.
 
 How to Compile and Run
 
@@ -42,11 +36,11 @@ Ensure you have a C compiler (e.g., gcc) installed.
 
 
 
-Clone the repository: git clone <repository-url>
+Clone the repository: git clone [<repository-url>](https://github.com/didierdrin/WK5_Assignment.git)
 
 
 
-Navigate to the project directory: cd <project-directory>
+Navigate to the project directory: cd WK5_Assignment
 
 
 
@@ -119,24 +113,9 @@ Arrays and Strings: 2D arrays for usernames and PINs, 3D array for transaction l
 
 
 
-Simplicity: Avoids typedef struct and #define directives, using hardcoded values (5 users, 10 transactions, 20-char usernames, 4-digit PINs, 100-char transactions) for clarity.
 
 Team Contributions
 
+Member 1: Implemented login system, input validation, transaction history display, and array-based user data management.
 
-
-
-
-Member 1: Implemented login system, input validation, and array-based user data management.
-
-
-
-Member 2: Developed deposit, withdraw, and transaction logging functions.
-
-
-
-Member 3: Created menu system, transaction history display, and README documentation.
-
-GitHub Repository
-
-The project is hosted in a public GitHub repository with a clear commit history showing incremental development and contributions from each team member.
+Member 2: Developed deposit, withdraw, and transaction logging functions, Created menu system, and README documentation.
