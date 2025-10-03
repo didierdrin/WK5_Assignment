@@ -16,7 +16,7 @@ void clear_input_buffer();
 
 int main() {
     // Initialize user data arrays
-    char usernames[5][20] = {"alice", "bob", "charlie", "dave", "eve"};
+    char usernames[5][20] = {"kevin", "ruto", "charlie", "dave", "lizzo"};
     char pins[5][5] = {"1234", "5678", "9012", "3456", "7890"};
     double balances[5] = {1000.00, 500.00, 2000.00, 1500.00, 3000.00};
     char transactions[5][10][100]; // 5 users, 10 transactions each
